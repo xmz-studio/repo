@@ -3291,12 +3291,12 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./debs/iphoneos-arm64/cydia/cydia_1.1.37-3_iphoneos-arm64-modified.deb
-Size: 1233880
-MD5sum: fc40df2ae32acdbfdaf11701251cd106
-SHA1: 8ec5242edda0030f10a4189b8d30eee3cc0b210b
-SHA256: 3cc08f0347c2b512d2ea84548af01ec29744a54c77b804a3397e98f79f753f1b
-Section: Application
+Filename: ./debs/iphoneos-arm64/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
+Size: 1233428
+MD5sum: 4a0d9e1ecff727e67f4fb6f1554a41ef
+SHA1: bc9e87cf18581bb26c559de35cfe7f9b702c5cfc
+SHA256: be2266490be96e883d7c85fcbcdc3a2c04def5c5dd6296a6766f4571da2f88d7
+Section: Applications
 Priority: important
 Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
 Tag: purpose::uikit, role::enduser
@@ -3353,6 +3353,96 @@ Author: LF
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS26e
 
+Package: io.github.xmz-team.minisudo
+Version: 0.0.1-release
+Architecture: iphoneos-arm64
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: libiosexec1, libcrypt2
+Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.1-release_iphoneos-arm64.deb
+Size: 12264
+MD5sum: 7884ee822f6b80d882c6cee232f13bb9
+SHA1: b3f38bc852d6722ad274a389b77841f4e83a127e
+SHA256: 087af12056320086359086416ff89c079e8e55e6e0a1774efdbe12f8f13ead7e
+Section: System
+Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
+Author: XMZ Studio <xmz-team@github.com>
+Name: minisudo
+
+Package: io.github.xmz-team.minisudo
+Version: 0.0.1-release-1
+Architecture: iphoneos-arm64
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: libiosexec1, libcrypt2
+Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.1-release-1_iphoneos-arm64.deb
+Size: 12248
+MD5sum: 66ed4defa5ccde20138f58923387047d
+SHA1: 01273b40daf5006fa7fb1d83f87517ffd169112c
+SHA256: 3bdd697be4cc9136c8e550b02db09dc052d344379af76cbf3fc59aad039f0b0a
+Section: System
+Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
+Author: XMZ Studio <xmz-team@github.com>
+Name: minisudo
+
+Package: io.github.xmz-team.minisudo
+Version: 0.0.2-release
+Architecture: iphoneos-arm64
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: libiosexec1, libcrypt2
+Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.2-release_iphoneos-arm64.deb
+Size: 12652
+MD5sum: 014b6b0149c17c8c59d8787aab5f37d6
+SHA1: fa3db27cc70437d29fcb84288329c6e287db8e98
+SHA256: f0a688a3c31bc88a66e41cc98f182f1dffdfafc4c07e742ac232b8126f8ef5ac
+Section: System
+Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
+Author: XMZ Studio <xmz-team@github.com>
+Name: minisudo
+
+Package: io.github.xmz-team.minisudo
+Version: 0.0.2-release-1
+Architecture: iphoneos-arm64
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: libiosexec1, libcrypt2
+Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.2-release-1_iphoneos-arm64.deb
+Size: 12656
+MD5sum: c86cbdf63b8908a1f8c019d640d5719b
+SHA1: 8c3693e16b7d9624e9ab2c649ff7b01d7a51641f
+SHA256: e08e492781561b6b964738f1530f87e439f858f001c4f7574c7b38f626e728a6
+Section: System
+Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
+Author: XMZ Studio <xmz-team@github.com>
+Name: minisudo
+
+Package: io.github.xmz-team.minisudo
+Version: 0.0.2-release-2
+Architecture: iphoneos-arm64
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: libiosexec1, libcrypt2
+Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.2-release-2_iphoneos-arm64.deb
+Size: 12652
+MD5sum: 8e67326a4696deb75d3352b7092e1514
+SHA1: a70abdd3fa3be27515a818e9b97f11a898e672ad
+SHA256: af800f68502f0a93a84313a176e0e36232b12874178ab8ea52b55341275a6312
+Section: System
+Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
+Author: XMZ Studio <xmz-team@github.com>
+Name: minisudo
+
+Package: io.github.xmz-team.minisudo
+Version: 0.0.3-release
+Architecture: iphoneos-arm64
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: libiosexec1, libcrypt2
+Filename: ./debs/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.3-release_iphoneos-arm64.deb
+Size: 12860
+MD5sum: bd316c8a90addaff1138a57729e96126
+SHA1: da1064890df8df02744c437a5ef20dc004bb22e6
+SHA256: 80497646d911797f6c9fe22ef30d15e0ec57fcba2c67d975d549798838a39d91
+Section: System
+Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
+Author: XMZ Studio <xmz-team@github.com>
+Name: minisudo
+
 Package: io.github.xmz-team.open-ios
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3360,30 +3450,46 @@ Maintainer: XNZ <xmz-team@outlook.com>
 Depends: libiosexec1
 Conflicts: com.conradkramer.open
 Filename: ./debs/iphoneos-arm64/io.github.xmz-team.open-ios/io.github.xmz-team.open-ios_1.0.0_iphoneos-arm64.deb
-Size: 8756
-MD5sum: f6580f5ca8600f53535ae389accde564
-SHA1: d3d0e3d94106832f109ff82e9bd51fe01b56f1cf
-SHA256: 71b7a7b3d3aeb140c1b55c7dce0337d299d5c3612f5408e349b261ade3259eb9
+Size: 8772
+MD5sum: 5b67729f9cd220f6335da9b1edfe1e38
+SHA1: 55e1d9199cbb69efe982b2d867c8107723bbddc1
+SHA256: fa162ab5440cf814136171375204bcf5e17677ed809d086d5be6229c61bf7128
 Section: Tools
 Description: Simple substitutes of macOS open command
-Author: XMZ <xmz-team@outlook.com>
+Author: XMZ Studio <xmz-team@github.com>
+Name: open-ios
+
+Package: io.github.xmz-team.open-ios
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: XNZ <xmz-team@outlook.com>
+Depends: libiosexec1
+Conflicts: com.conradkramer.open
+Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.open-ios/io.github.xmz-team.open-ios_1.0.0_iphoneos-arm64.deb
+Size: 8772
+MD5sum: abb251b27a624b105b348ffb7ace3244
+SHA1: 2ab6530c1bd6692fbad8ce80c6ca95daf6db2c54
+SHA256: e9204bafb97d1f8106a4dffff538e9b7831f8aee19808ee32a01cc7a15d333d3
+Section: Tools
+Description: Simple substitutes of macOS open command
+Author: XMZ Studio <xmz-team@github.com>
 Name: open-ios
 
 Package: io.github.xmz-team.zerocpu
 Version: 1.0.0-3+debug
 Architecture: iphoneos-arm64
-Maintainer: XMZ <xmz-team@outlook.com>
+Maintainer: XMZ Studio <xmz-team@github.com>
 Installed-Size: 172
 Depends: mobilesubstrate
 Conflicts: fakecpuzero
 Filename: ./debs/iphoneos-arm64/io.github.xmz-team.zerocpu/io.github.xmz-team.zerocpu_1.0.0-3+debug_iphoneos-arm64.deb
-Size: 5230
-MD5sum: 569b9ed7af95cbbbe817c0df85e283a8
-SHA1: ac64f65f1865c6e7a3630e5bf2380a58a28e767b
-SHA256: f1b7816310c14a1ff808f11d25d660681dd3900120ef3beaf42ea9db3ff20bf9
+Size: 5164
+MD5sum: b198949c8c8a1f46840e7762acc4c73b
+SHA1: 1b9e25ac7e461b81ca8bdc9e6e73b3ff0a3a5246
+SHA256: 87133cd3f435751da16728f8f256e9066af7cd1150bf21b9ad0e3cf895c2b4f8
 Section: Tweaks
 Description: A Tweak that can turn all the obtained CPU usage rates into 0%.
-Author: XMZ <xmz-team@outlook.com>
+Author: XMZ Studio <xmz-team@github.com>
 Name: CPU Usage Zero
 
 Package: iperformancetweak
@@ -3607,6 +3713,21 @@ Description: 将系统默认词库替换为某人制作的百度词库，显著�
 Author: 百度
 Icon: https://raw.githubusercontent.com/ichitaso/HideKBSettings/master/Preferences/Resources/icon%403x.png
 Name: 百度词库
+
+Package: switch-sdk.io.github.xmz-team
+Version: 0.1.1
+Architecture: all
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: bash, dash, shell-cmds
+Filename: ./debs/all/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
+Size: 1928
+MD5sum: d22abd1c3c57adfac59759efbe37c358
+SHA1: 43f2fe75d4e573b71fc5ebb9f2e819a3dbd1f3cd
+SHA256: b44f9244e8ed2b37e6738044c1a10f9c95c47f69b5fcffbef6d092bce1451955
+Section: Tools
+Description: Switch SDK, need Theos
+Author: XMZ Studio <xmz-team@github.com>
+Name: switch-sdk
 
 Package: vnodebypassnext
 Version: 0.4.5.2-Next

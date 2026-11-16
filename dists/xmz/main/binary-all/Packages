@@ -2,7 +2,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: /var/jb/tmp/tmp.KqIBJJCCeO/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
+Filename: /var/jb/tmp/tmp.ENL1TdLDae/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
 Size: 58524
 MD5sum: 06f758067dfdd4a72eab901b37bf7e6f
 SHA1: 14d03264015c19a229db6eb6645e7fd80108d3d4
@@ -12,6 +12,21 @@ Description: adsu a simple substitute for su, pam is not required, but a passwor
 Author: AD <ad-ios334@outlook.com>
 Name: adsu
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
+
+Package: switch-sdk.io.github.xmz-team
+Version: 0.1.1
+Architecture: all
+Maintainer: XMZ Studio <xmz-team@github.com>
+Depends: bash, dash, shell-cmds
+Filename: /var/jb/tmp/tmp.ENL1TdLDae/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
+Size: 1928
+MD5sum: d22abd1c3c57adfac59759efbe37c358
+SHA1: 43f2fe75d4e573b71fc5ebb9f2e819a3dbd1f3cd
+SHA256: b44f9244e8ed2b37e6738044c1a10f9c95c47f69b5fcffbef6d092bce1451955
+Section: Tools
+Description: Switch SDK, need Theos
+Author: XMZ Studio <xmz-team@github.com>
+Name: switch-sdk
 
 Package: 10086.repo.io.github.xmz-team
 Name: Announcement (公告)

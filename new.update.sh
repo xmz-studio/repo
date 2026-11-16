@@ -1,6 +1,7 @@
 #!/bin/bash
-set -e
-
+set -ex
+LC_TERMINAL=xterm-256color
+LANG=C
 REPO_ROOT=$(cd "$(dirname ${BASH_SOURCE[0]})" && pwd)
 cd "$REPO_ROOT"
 
@@ -20,14 +21,19 @@ find pool -type d \( \
 
 rm -f Packages Packages.bz2 Packages.gz Packages.xz Packages.zst
 
-mkdir -p dists/AD/main/binary-all
-mkdir -p dists/AD/main/binary-iphoneos-arm
-mkdir -p dists/AD/main/binary-iphoneos-arm64
-mkdir -p dists/AD/main/binary-iphoneos-arm64e
-mkdir -p dists/AD/dev/binary-all
-mkdir -p dists/AD/dev/binary-iphoneos-arm
-mkdir -p dists/AD/dev/binary-iphoneos-arm64
-mkdir -p dists/AD/dev/binary-iphoneos-arm64e
+if [ ! -f ${REPO_ROOT}/dists/AD ]; then
+    cd ${REPO_ROOT}/dists
+    ln -sf xmz AD
+    cd ${REPO_ROOT}
+fi
+mkdir -p dists/xmz/main/binary-all
+mkdir -p dists/xmz/main/binary-iphoneos-arm
+mkdir -p dists/xmz/main/binary-iphoneos-arm64
+mkdir -p dists/xmz/main/binary-iphoneos-arm64e
+mkdir -p dists/xmz/dev/binary-all
+mkdir -p dists/xmz/dev/binary-iphoneos-arm
+mkdir -p dists/xmz/dev/binary-iphoneos-arm64
+mkdir -p dists/xmz/dev/binary-iphoneos-arm64e
 
 echo "[2/5] Generate Packages file..."
 
@@ -43,7 +49,7 @@ for component in "${COMPONENTS[@]}"
 do
     for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
     do
-        output_dir="dists/AD/${component}/binary-${arch}"
+        output_dir="dists/xmz/${component}/binary-${arch}"
         output_file="${output_dir}/Packages"
         echo "  handle: ${component}/${arch}"
         pool_paths=""
@@ -104,7 +110,7 @@ do
     for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
     do
         pool_dir="pool/${component}/${arch}"
-        contents_file="dists/AD/${component}/binary-${arch}/Contents-${arch}"
+        contents_file="dists/xmz/${component}/binary-${arch}/Contents-${arch}"
         if [ -d "$pool_dir" ] && [ -n "$(find "$pool_dir" -name '*.deb' -type f 2>/dev/null)" ]; then
             echo "  Generate Contents: ${component}/${arch}"
             apt-ftparchive contents "$pool_dir" > "$contents_file"
@@ -127,7 +133,7 @@ do
     has_packages=false
     for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
     do
-        if [ -s "dists/AD/${component}/binary-${arch}/Packages" ]; then
+        if [ -s "dists/xmz/${component}/binary-${arch}/Packages" ]; then
             has_packages=true
             break
         fi
@@ -144,7 +150,7 @@ for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 do
     for component in $components_list
     do
-        if [ -s "dists/AD/${component}/binary-${arch}/Packages" ]; then
+        if [ -s "dists/xmz/${component}/binary-${arch}/Packages" ]; then
             arches_list="$arches_list $arch"
             break
         fi
@@ -153,18 +159,18 @@ done
 
 arches_list=$(echo "$arches_list" | xargs)
 release_date=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
-release_file="dists/AD/Release"
+release_file="dists/xmz/Release"
 
 cat > "$release_file" << EOF
-Origin: XMZ-Team Repo
-Label: XMZ-Team Repo
+Origin: XMZ Studio Repo
+Label: XMZ Studio Repo
 Suite: stable
 Version: 1.0
-Codename: AD
+Codename: xmz
 Date: $release_date
 Architectures: $arches_list
 Components: $components_list
-Description: XMZ-Team Repo, Distribution of some essential tools for iPhoneOS
+Description: XMZ Studio Repo, Distribution of some essential tools for iPhoneOS
 EOF
 
 echo "MD5Sum:" >> "$release_file"
@@ -173,7 +179,7 @@ for component in $components_list
 do
     for arch in $arches_list
     do
-        binary_dir="dists/AD/${component}/binary-${arch}"
+        binary_dir="dists/xmz/${component}/binary-${arch}"
         for file in "Packages" "Packages.gz" "Packages.bz2" "Packages.xz" "Packages.zst" \
                     "Contents-${arch}" "Contents-${arch}.gz" "Contents-${arch}.bz2" "Contents-${arch}.xz" "Contents-${arch}.zst"
         do
@@ -189,17 +195,14 @@ do
 done
 
 echo "[5/5] Create a compatible symbolic link"
-ln -sf dists/AD/Release Release 2>/dev/null || true
+ln -sf dists/xmz/Release Release 2>/dev/null || true
 
 echo ""
 echo "Update done!"
 echo "UTC Time: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 echo "Update the compatible flat warehouse"
-echo ""
-./update_dpkg.sh
+cd ${REPO_ROOT} && ./update_dpkg.sh
 echo "Upload to Github"
-echo ""
-./update_git.sh
-echo ""
+cd ${REPO_ROOT} && ./update_git.sh
 echo "Done"
 

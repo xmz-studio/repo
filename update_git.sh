@@ -1,6 +1,5 @@
-#!/bin/bash
-
-_root="$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)"
+#!/bin/bash -ex
+_root="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
 if [ ! -d "${_root}/.git-upload" ]; then
     echo "[Error]: directory '.git-upload' does not exist" >&2
     exit 1

@@ -7,7 +7,7 @@
 dpkg-scanpackages -m . /dev/null > Packages
 # {
 # Add fake deb packages
-orig_dir="$(cd "$(dirname ${BASH_SOURCE[0]})" && pwd)"
+orig_dir="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
 echo "$(cat ${orig_dir}/template/10086.template)" >> Packages
 # }
 xz -c Packages > Packages.xz
