@@ -10,19 +10,8 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**Hide jailbreak traces and bypass detection mechanisms.**\n\nAutomatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient!\n\n**隐藏越狱痕迹，绕过检测机制**\n\n自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)\n\n添加安装完成后重启SpringBoard弹窗的支持",
+                    "markdown": "**Hide jailbreak traces and bypass the detection mechanism**\n\nAutomatically configure the path and fix the residual problem of uninstalling. Compatible with Dopamine jailbreak environment. The first installation may be slightly delayed due to the path configuration. Please wait patiently~(づ ̄ 3 ̄)\n\nAdd support for restarting SpringBoard pop-up after installation.",
                     "useRawFormat": false
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/vnodebypassnext/Screenshot_01.png"
-                        }
-                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -37,7 +26,7 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "详情",
+                    "title": "Details",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -48,32 +37,32 @@
                 {
                     "class": "DepictionTableTextView",
                     "text": "XsF1re,ichitaso,level3tjg",
-                    "title": "创作者"
+                    "title": "Author"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "LF, AD",
-                    "title": "维护者"
+                    "text": "LF <yitat1006@outlook.com>",
+                    "title": "Maintainer"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "排名没有先后排序",
-                    "title": "备注"
+                    "text": "AD <ad-ios334@outlook.com>",
+                    "title": "Maintainer"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "0.4.5-Next",
-                    "title": "最新版本"
+                    "title": "Latest version"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "15-16.6.1",
-                    "title": "理论支持系统范围"
+                    "title": "Support OS scope"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "2025 年 10 月 02 日",
-                    "title": "最后更新日期"
+                    "title": "Last update date"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -83,7 +72,7 @@
         },
         {
             "class": "DepictionStackView",
-            "tabname": "更新日志",
+            "tabname": "Update log",
             "views": [
                 {
                     "class": "DepictionSubheaderView",
@@ -93,7 +82,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "由AD添加prerm和preinst使其可以移除前完整卸載和更新時卸載就版本內容",
+                    "markdown": "Add prerm and preinst by AD so that it can be removed completely before uninstalling and uninstalling the version content when updating",
                     "useRawFormat": true
                 },
                 {
@@ -104,7 +93,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "由AD添加在安装完成后用户可以自己选择是否重启SpringBoard的操作",
+                    "markdown": "Added by AD. After the installation is completed, users can choose whether to restart SpringBoard.",
                     "useRawFormat": true
                 }
             ]

@@ -1,28 +1,17 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://xmz-team.github.io/ad/sileodepiction/Default/top_0.png",
+    "headerImage": "https://xmz-studio.github.io/repo/sileodepiction/Default/top_0.png",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "描述",
+            "tabname": "Description",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**本源的公告**\n\n**声明一下: 本源只是将网上作者分享的插件、交流群群友做的插件,以及源主做的插件上传到本源,其中其他插件作者发的的插件和群友做的插件未做任何修改**\n\n**部分插件标识符和作者插件一致导致显示问题,这是Cydia/Sileo的默认规则导致(先添加谁的源就会显示谁的),并非我们劫持插件**\n\n**若本源的部分插件或者软件安装后无法使用/安裝的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复**\n\n**因为本源是GitHub托管的所以服务器在美国,遇到下载问题请尝试:切换VPN或者更换网络环境**\n\n**本源已经由 XMZ-Team 所有并且维护**\n\n交流群:\n\n -  QQ1群:1030152896\n\n -  QQ2群:837894083\n\n -  QQ文件群: 1027358518",
+                    "markdown": "**Announcement of the original source**\n\n**State: The original source only uploads the plug-ins shared by the online author, the plug-ins made by the communication group friends, and the plug-ins made by the source owner to the original source. Among them, the plug-ins sent by other plug-in authors and the plug-ins made by group friends have not been modified\n\n**The original source has been owned and maintained by XMZ Studio**\n\nExchange group:\n\n - (China)QQ1 group:1030152896\n\n - (China)QQ2 group:837894083",
                     "useRawFormat": false
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/official.ad.repo.10086/Screenshot_01.png"
-                        }
-                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -37,7 +26,7 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "详情",
+                    "title": "Details",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -47,28 +36,28 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "AD",
-                    "title": "创作者"
+                    "text": "XMZ Studio <xmz-studio@github.com>",
+                    "title": "Author"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "XMZ-Team",
-                    "title": "维护者"
+                    "text": "XMZ Studio <xmz-studio@github.com>",
+                    "title": "Maintainer"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "1.0.1-1",
-                    "title": "最新版本"
+                    "title": "Latest version"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "markdown": "unknown",
-                    "title": "理论支持系统范围"
+                    "title": "Support OS scope"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 08 月 06 日",
-                    "title": "最后更新日期"
+                    "text": "2026-11-17",
+                    "title": "Last update date"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -78,7 +67,7 @@
         },
         {
             "class": "DepictionStackView",
-            "tabname": "更新日志",
+            "tabname": "Update log",
             "views": [
                 {
                     "class": "DepictionSubheaderView",

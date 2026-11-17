@@ -1,0 +1,100 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://xmz-studio.github.io/repo/sileodepiction/Default/top_0.png",
+    "tintColor": "#1DBBFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Description",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<Description>",
+                    "useRawFormat": false
+                },
+/* Optional screenshot description
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://xmz-studio.github.io/repo/sileodepiction/<package name>/<image name>.png"
+                            /* "url": "https://xmz-studio.github.io/repo/sileodepiction/Default/<image name>.png" */
+                        }
+                    ]
+                },
+ */
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Details",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "<author name> <author email>",
+                    "title": "Author"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "<Maintainer name> <maintainer email>",
+                    "title": "Maintainer"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "<version>,
+                    "title": "Latest version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "markdown": "unknown",
+                    "title": "Support OS scope"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "<Year>-<Moon>-<Day>",
+                    "title": "Last update"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Update log",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "<version>",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<Description>",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}

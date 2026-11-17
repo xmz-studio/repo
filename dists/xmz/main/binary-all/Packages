@@ -2,7 +2,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: /var/jb/tmp/tmp.LCKtf5wi14/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
+Filename: /var/jb/tmp/tmp.4OP8s2br2i/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
 Size: 58524
 MD5sum: 06f758067dfdd4a72eab901b37bf7e6f
 SHA1: 14d03264015c19a229db6eb6645e7fd80108d3d4
@@ -16,27 +16,27 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.j
 Package: switch-sdk.io.github.xmz-team
 Version: 0.1.1
 Architecture: all
-Maintainer: XMZ Studio <xmz-team@github.com>
+Maintainer: XMZ Studio <xmz-studio@github.com>
 Depends: bash, dash, shell-cmds
-Filename: /var/jb/tmp/tmp.LCKtf5wi14/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
+Filename: /var/jb/tmp/tmp.4OP8s2br2i/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
 Size: 1928
-MD5sum: d22abd1c3c57adfac59759efbe37c358
-SHA1: 43f2fe75d4e573b71fc5ebb9f2e819a3dbd1f3cd
-SHA256: b44f9244e8ed2b37e6738044c1a10f9c95c47f69b5fcffbef6d092bce1451955
+MD5sum: 51adc7df53a882b780f2f1826d0832fc
+SHA1: f1f6a4a0e352e1634d40a451496d3ded337f79cf
+SHA256: b4c4f0e9d39b8212878867f44e9c461b72ef6bfde2b5a96d5e3a938af5ee2695
 Section: Tools
 Description: Switch SDK, need Theos
-Author: XMZ Studio <xmz-team@github.com>
+Author: XMZ Studio <xmz-studio@github.com>
 Name: switch-sdk
 
 Package: 10086.repo.io.github.xmz-team
-Name: Announcement (公告)
+Name: Announcement
 Version: 1.0.1-1
 Architecture: all
-Maintainer: XMZ-Team <xmz-team@outlook.com>
-Author: XMZ-Team <xmz-team@outlook.com>
+Maintainer: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@github.com>
 Section: 10086
 Priority: required
 Depends: firmware (<= -1.0), firmware (= -1.0), firmware (< -0.9)
 Icon: https://xmz-team.github.io/ad/CydiaIcon.png
-SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
+SileoDepiction: https://xmz-studio.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
 Description: 10086

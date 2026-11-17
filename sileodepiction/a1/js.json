@@ -1,28 +1,17 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://xmz-team.github.io/repo/sileodepiction/Default/top_0.png",
+    "headerImage": "https://xmz-studio.github.io/repo/sileodepiction/Default/top_0.png",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "描述",
+            "tabname": "Description",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "Optimize Jetsam and kernel parameters to enhance background task performance.\n\n通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。\n\n - Reduce priority of non-essential processes to improve system fluidity.\n\n降低非核心进程优先级，优化系统流畅度。\n\n - Modify kernel memory management parameters for better background task handling.\n\n优化内核内存管理参数，改善后台任务调度机制．\n\n交流群: 1030152896",
                     "useRawFormat": false
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://ad-ios.github.io/ad/sileodepiction/a1/Screenshot_01.png"
-                        }
-                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -37,7 +26,7 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "详情",
+                    "title": "Details",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -47,28 +36,43 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "LF",
-                    "title": "创作者"
+                    "text": "LF <yitat1006@outlook.com>",
+                    "title": "Author"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "LF, AD, XMZ",
-                    "title": "维护者"
+                    "text": "LF <yitat1006@outlook.com>",
+                    "title": "Maintainer"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "AD <ad-ios334@outlook.com>",
+                    "title": "Maintainer"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "xhz <xhzer@outlook.com>",
+                    "title": "Maintainer"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "amzxus <amzxus@gmail.com>",
+                    "title": "Maintainer"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "2.0.1.37",
-                    "title": "最新版本"
+                    "title": "Latest Version"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "markdown": "14.0-16.7.15-17.3.1?",
-                    "title": "理论支持系统范围"
+                    "title": "Supported OS Range"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 10 月 1 日",
-                    "title": "最后更新日期"
+                    "text": "2026-10-1",
+                    "title": "Last Updated"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -78,41 +82,41 @@
         },
         {
             "class": "DepictionStackView",
-            "tabname": "更新日志",
+            "tabname": "Changelog",
             "views": [
-		{
-		    "class": "DepictionSubheaderView",
-    		    "title": "2.0.1.37",
-    		    "useBoldText": true,
-    		    "useBottomMargin": false
-		},
-		{
-		    "class": "DepictionMarkdownView",
-		    "markdown": "使用C++重构了整个a1<br>不向后兼容的更新<br>添加myini二进制工具<br>解决耗电/发热很严重问题?(不确定)<br>模块系统打升级，可以用lua去编写模块<br>修复在非root状态下提权到root失败的问题<br>移除 log_reincarnation 和 experimental 功能",
-		    "useRawFormat": true
-		},
-		{
-		    "class": "DepictionSubheaderView",
-    		    "title": "1.9.9-beta3-2+debug11",
-    		    "useBoldText": true,
-    		    "useBottomMargin": false
-		},
-		{
-		    "class": "DepictionMarkdownView",
-		    "markdown": "本次更新修复了一些已知的问题<br>添加了a1pm, a1core api<br>添加a1mod-scan<br>修复a1ctl调用a1hub失败的问题",
-		    "useRawFormat": true
-		},
-		{
-    		    "class": "DepictionSubheaderView",
-    		    "title": "1.9.8-beta4+debug3-4",
-    		    "useBoldText": true,
-    		    "useBottomMargin": false
-		},
-		{
-		    "class": "DepictionMarkdownView",
-		    "markdown": "本次更新修复了一些已知的问题<br>修复了 flock 调用错误的问题，完善了 lock 机制<br>可能还有其他更新没有提及到，这里不赘述过多",
-		    "useRawFormat": true
-		},
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.1.37",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Refactored the entire a1 in C++<br>Backward-incompatible update<br>Added myini binary tool<br>Fixed severe battery drain/overheating issues? (uncertain)<br>Major upgrade to the module system, modules can now be written in Lua<br>Fixed the issue where privilege escalation to root failed in non-root state<br>Removed log_reincarnation and experimental features",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.9-beta3-2+debug11",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "This update fixes some known issues<br>Added a1pm, a1core api<br>Added a1mod-scan<br>Fixed the issue where a1ctl failed to call a1hub",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.9.8-beta4+debug3-4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "This update fixes some known issues<br>Fixed the incorrect flock call issue and improved the lock mechanism<br>There may be other updates not mentioned here, so we won't go into too much detail",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.9.8-beta1+debug2-1",
@@ -121,199 +125,199 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修復了一次重大的錯誤<br>  這個錯誤會直接導致 a1 獲取配置失敗進而導致運行失敗, 簡單的說就是如果有人掛載了`/etc`那麼 a1 的檢測會把 rootless 判定成 rootful/roothide 導致 rootless 獲取配置失敗, 於是便改進了檢測方法, 使用 dpkg 來獲取到當前越獄環境, 然後在利用它來獲取其他配置<br>允許修改 flock 機制<br>  之前 lock 鎖機制是不讓改的狀態, 這一次更新因為 AD 成功實作出來了 linux flock 所以 lock 機制便進行了一次重構, 現在 lock 機制允許你開或者關(默認情況下是開), 如果你選擇了關, 那麼有可能會因為多個進程同時修改一個配置文件的情況下導致配置文件損壞等, 但是他帶來了多線程和並發性, 如果你選擇了來那麼配置資料便得到了保證, 不會因為多進程問題導致損壞, 但是缺點便是但線程<br>修復了其他已知的問題",
+                    "markdown": "Fixed a major bug<br>  This bug would directly cause a1 to fail to obtain configuration and thus fail to run. Simply put, if someone mounted `/etc`, a1's detection would misjudge rootless as rootful/roothide, causing rootless configuration retrieval to fail. So the detection method was improved, using dpkg to obtain the current jailbreak environment, and then using it to obtain other configurations<br>Allow modification of the flock mechanism<br>  Previously the lock mechanism was not modifiable. This update, because AD successfully implemented Linux flock, the lock mechanism was refactored. Now the lock mechanism allows you to enable or disable it (enabled by default). If you choose to disable it, the configuration file may be corrupted due to multiple processes modifying the same configuration file simultaneously, but it brings multithreading and concurrency. If you choose to enable it, the configuration data is guaranteed and will not be corrupted due to multi-process issues, but the disadvantage is single-threading<br>Fixed other known issues",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug10 更新日志",
+                    "title": "1.9.7+debug10 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "加入自动守护功能并与自动调整区分开來<br>a1ctl细节优化<br>修复已知问题<br>由于加入新功能，请全新安装a1, 不要恢复之前的备份",
+                    "markdown": "Added auto-daemon feature and separated it from auto-adjustment<br>a1ctl detail optimization<br>Fixed known issues<br>Due to the new features added, please install a1 fresh, do not restore previous backups",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug7 更新日志",
+                    "title": "1.9.7+debug7 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修復了 a1ctl 調用 a1hub 失敗的問題",
+                    "markdown": "Fixed the issue where a1ctl failed to call a1hub",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug6 更新日志",
+                    "title": "1.9.7+debug6 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修復 a1ctl 的 use_root_a1ctl 會導致無限循環的問題 <br> 修復 a1 記錄日誌時部分正常的日誌會被記錄到錯誤日誌的問題 <br> 修復了一些已知的問題",
+                    "markdown": "Fixed the issue where a1ctl's use_root_a1ctl would cause an infinite loop <br> Fixed the issue where some normal logs were recorded to the error log when a1 logs <br> Fixed some known issues",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug5 更新日志",
+                    "title": "1.9.7+debug5 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "嘗試減低電流消耗",
+                    "markdown": "Attempted to reduce current consumption",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug4 更新日志",
+                    "title": "1.9.7+debug4 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "優化性能,降低了占用,使其更省電",
+                    "markdown": "Optimized performance, reduced usage, making it more power-efficient",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug3 更新日志",
+                    "title": "1.9.7+debug3 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "注释掉585行的 adjust_launchd_priority, 以修复launchd优先级调整默认开启的问题和后台APP的优先级全部变成 -20 的问题",
+                    "markdown": "Commented out adjust_launchd_priority on line 585, to fix the issue where launchd priority adjustment was enabled by default and the issue where all background app priorities became -20",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug2 更新日志",
+                    "title": "1.9.7+debug2 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修改时间值以降低CPU占用, 从而节省电量",
+                    "markdown": "Modified time values to reduce CPU usage, thereby saving battery",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.7+debug1 更新日志",
+                    "title": "1.9.7+debug1 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "本次更新修復了一些已知的問題 <br> 合併了部分 a1ctl 的命令 <br> 完善了 a1 ,使其占用更低 <br> 修復配置文件中缺失的變量 <br> 添加 alctl, almod, almodule 別名",
+                    "markdown": "This update fixes some known issues <br> Merged some a1ctl commands <br> Improved a1, making it use less resources <br> Fixed missing variables in configuration files <br> Added aliases alctl, almod, almodule",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.6+debug1+1 更新日志",
+                    "title": "1.9.6+debug1+1 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "本次更新修復了一些已知的問題 <br> 修復了模組系統解析 ini 元數據文件失敗的問題 <br> 添加了兼容模式,沒有問題的不要開啟 <br> 完善了跨環境腳本 <br> 修復了跨環境沒有獲取到 rootfs 變量的問題 <br> 添加了 al , a1 的別名",
+                    "markdown": "This update fixes some known issues <br> Fixed the issue where the module system failed to parse ini metadata files <br> Added compatibility mode, do not enable it if there are no issues <br> Improved cross-environment scripts <br> Fixed the issue where rootfs variable was not obtained in cross-environment <br> Added aliases al, a1",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.5+debug1 更新日志",
+                    "title": "1.9.5+debug1 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修復了因為檢測問題導致的 roothide 配置 autofonf.ini 失敗的問題 <br> 修復了跨環境腳本的一些問題",
+                    "markdown": "Fixed the issue where roothide failed to configure autofonf.ini due to detection issues <br> Fixed some issues with cross-environment scripts",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.4 更新日志",
+                    "title": "1.9.4 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "AD 修復跨環境 <br> 修復了一些已知的問題 <br> 新添加了自定義優先級 <br> 修復來啟動問題 <br> 修復了配置問題",
+                    "markdown": "AD fixed cross-environment <br> Fixed some known issues <br> Added custom priority <br> Fixed startup issues <br> Fixed configuration issues",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9.3 更新日志",
+                    "title": "1.9.3 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊) <br> 模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看 <br> 優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一) <br> 添加 sudo 免密模式 <br> 添加免 root 模式 <br> 引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題",
+                    "markdown": "Extension system officially returns, with a major update (extension system renamed to module/extension module/A1 module) <br> Modules officially added packaging/installing modules and other features, for details please enter a1ctl mod help or a1mod help <br> Optimized module installation logic (this was one of the major pain points of the former extension modules) <br> Added sudo passwordless mode <br> Added rootless-free mode <br> Introduced iOS-AD's cross-environment, greatly avoiding the adaptation difficulties caused by inconsistent paths under different jailbreaks",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.9 更新日志",
+                    "title": "1.9 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "彻底修复优先级调整(感谢灰灰指导!) <br> 加入自动优化功能 <br> 加入动态调整功能(legacy) <br> 加入扩展系统 <br> 加入自动调整功能[最推荐的功能] <br> 加入 loop-sleep 来调节循环模式间隔 <br> 优先级级别调整 <br> 完善配置系统(感谢iOS-AD) <br> 美化a1ctl(A1控制面板)(你现在也可以用a1hub来打开)(不再需要手动提权与输密码) <br> 修复卸载脚本不能完全清除残留的问题 <br> 增加超多低优先级进程,原28现125!流畅度提升! <br> 降低循环模式、动态调整下的CPU占用 <br> 加入优先级恢复功能 <br> ... <br> 等你来探索! <br> Happy New Year!",
+                    "markdown": "Completely fixed priority adjustment (thanks to Huihui for guidance!) <br> Added auto-optimization feature <br> Added dynamic adjustment feature (legacy) <br> Added extension system <br> Added auto-adjustment feature [most recommended feature] <br> Added loop-sleep to adjust loop mode interval <br> Priority level adjustment <br> Improved configuration system (thanks to iOS-AD) <br> Beautified a1ctl (A1 control panel) (you can now also open it with a1hub) (no longer need to manually escalate privileges and enter password) <br> Fixed the issue where the uninstall script could not completely remove residues <br> Added many low-priority processes, from 28 to 125! Fluidity improved! <br> Reduced CPU usage under loop mode and dynamic adjustment <br> Added priority restoration feature <br> ... <br> Waiting for you to explore! <br> Happy New Year!",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.8 更新日志",
+                    "title": "1.8 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复循环模式（默认关闭）下的进程堆积与僵尸进程 <br> 首次支持RootHide <br> 修复a1ctl的pgrep报错 <br> 完善、修复a1ctl <br> 注释掉3个提升系统压力的内核参数 <br> 等 roothide 穩定後本源會上線 roothide 版本",
+                    "markdown": "Fixed process accumulation and zombie processes under loop mode (disabled by default) <br> First support for RootHide <br> Fixed a1ctl's pgrep error <br> Improved and fixed a1ctl <br> Commented out 3 kernel parameters that increase system pressure <br> After roothide stabilizes, the source will release a roothide version",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.7 更新日志",
+                    "title": "1.7 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "补全依赖项与路径，避免无法运行, 更新，完善a1ctl <br> 加入更多注释，帮助萌新小白",
+                    "markdown": "Completed dependencies and paths to avoid failure to run, updated and improved a1ctl <br> Added more comments to help beginners",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.6 更新日志",
+                    "title": "1.6 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复了路径bug <br> 修正了命令行工具的位置 <br> 加入更加适合大家的内核配置（感谢飘散的烟） <br> 首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher <br> 修复了postinst的路径问题，去除了postrm",
+                    "markdown": "Fixed path bug <br> Corrected the location of command-line tools <br> Added kernel configuration more suitable for everyone (thanks to Piaosan de Yan) <br> First introduced a1ctl (Beta) (a1 management panel), removed a1laucher <br> Fixed postinst path issue, removed postrm",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.5 更新日志",
+                    "title": "1.5 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "集成 aJetsamctl 与 swapon (AD) <br> 扩展进程管理范围，覆盖更多系统服务 <br> 修改postinst与postrm <br> 去除a1、a1laucher的.sh后缀 <br> 增加多个内核优化 <br> AD添加了更新日誌可以在sileo中直接查看A1的更新日志",
+                    "markdown": "Integrated aJetsamctl and swapon (AD) <br> Expanded process management scope, covering more system services <br> Modified postinst and postrm <br> Removed .sh suffix from a1, a1laucher <br> Added multiple kernel optimizations <br> AD added changelog so you can view A1's changelog directly in Sileo",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.4 更新日志",
+                    "title": "1.4 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -324,7 +328,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.3 更新日志",
+                    "title": "1.3 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -335,35 +339,35 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.2 更新日志",
+                    "title": "1.2 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.2 的更新日誌沒有寫或者被遺忘了",
+                    "markdown": "The 1.2 changelog was not written or was forgotten",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.1 更新日志",
+                    "title": "1.1 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.1 的更新日誌沒有寫或者被遺忘了",
+                    "markdown": "The 1.1 changelog was not written or was forgotten",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0 更新日志",
+                    "title": "1.0 Changelog",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.0 的更新日誌沒有寫或者被遺忘了",
+                    "markdown": "The 1.0 changelog was not written or was forgotten",
                     "useRawFormat": true
                 }
             ]
