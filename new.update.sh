@@ -20,12 +20,7 @@ find pool -type d \( \
     -exec rm -rf {} + 2>/dev/null || true
 
 rm -f Packages Packages.bz2 Packages.gz Packages.xz Packages.zst
-
-if [ ! -f ${REPO_ROOT}/dists/AD ]; then
-    cd ${REPO_ROOT}/dists
-    ln -sf xmz AD
-    cd ${REPO_ROOT}
-fi
+ln -sfn xmz "${REPO_ROOT}/dists/AD"
 mkdir -p dists/xmz/main/binary-all
 mkdir -p dists/xmz/main/binary-iphoneos-arm
 mkdir -p dists/xmz/main/binary-iphoneos-arm64
@@ -195,7 +190,7 @@ do
 done
 
 echo "[5/5] Create a compatible symbolic link"
-ln -sf dists/xmz/Release Release 2>/dev/null || true
+cd ${REPO_ROOT} && ln -sf dists/xmz/Release Release 2>/dev/null || true
 
 echo ""
 echo "Update done!"

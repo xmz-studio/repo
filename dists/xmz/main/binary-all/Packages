@@ -2,7 +2,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: /var/jb/tmp/tmp.4OP8s2br2i/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
+Filename: /var/jb/tmp/tmp.ny3zIGFBpE/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
 Size: 58524
 MD5sum: 06f758067dfdd4a72eab901b37bf7e6f
 SHA1: 14d03264015c19a229db6eb6645e7fd80108d3d4
@@ -18,7 +18,7 @@ Version: 0.1.1
 Architecture: all
 Maintainer: XMZ Studio <xmz-studio@github.com>
 Depends: bash, dash, shell-cmds
-Filename: /var/jb/tmp/tmp.4OP8s2br2i/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
+Filename: /var/jb/tmp/tmp.ny3zIGFBpE/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
 Size: 1928
 MD5sum: 51adc7df53a882b780f2f1826d0832fc
 SHA1: f1f6a4a0e352e1634d40a451496d3ded337f79cf
