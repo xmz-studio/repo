@@ -35,9 +35,8 @@
                     "spacing": 8
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "XMZ Studio <xmz-studio@users.noreply.github.com>",
-                    "title": "Author"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Author:** XMZ Studio  \n`xmz-studio@users.noreply.github.com`"
                 },
                 {
                     "class": "DepictionTableTextView",
