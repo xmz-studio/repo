@@ -36,12 +36,11 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**Author:** XMZ Studio  \n`xmz-studio@users.noreply.github.com`"
+                    "markdown": "**Author:** XMZ Studio\n`<xmz-studio@users.noreply.github.com>`"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "XMZ Studio <xmz-studio@users.noreply.github.com>",
-                    "title": "Maintainer"
+                    "markdown": "**Maintainer:** XMZ Studio\n`<xmz-studio@users.noreply.github.com>`"
                 },
                 {
                     "class": "DepictionTableTextView",
