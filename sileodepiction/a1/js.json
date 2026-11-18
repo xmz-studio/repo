@@ -35,44 +35,36 @@
                     "spacing": 8
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "LF <yitat1006@outlook.com>",
-                    "title": "Author"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Author:** LF `<yitat1006@outlook.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "LF <yitat1006@outlook.com>",
-                    "title": "Maintainer"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Maintainer:** LF `<yitat1006@outlook.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "AD <ad-ios334@outlook.com>",
-                    "title": "Maintainer"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Maintainer:** AD `<ad-ios334@outlook.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "xhz <xhzer@outlook.com>",
-                    "title": "Maintainer"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Maintainer:** xhz `<xhzer@outlook.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "amzxus <amzxus@gmail.com>",
-                    "title": "Maintainer"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Maintainer:** amzxus `<amzxus@gmail.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "2.0.1.37",
-                    "title": "Latest Version"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Latest Version:** `2.0.1.37`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "markdown": "14.0-16.7.15-17.3.1?",
-                    "title": "Supported OS Range"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Supported OS Range:** `iOS15.0~iOS16.7.15 and iOS17.3.1?`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "2026-10-1",
-                    "title": "Last Updated"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Last Updated:** `2026-10-1`"
                 },
                 {
                     "class": "DepictionSpacerView",

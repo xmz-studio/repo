@@ -6,7 +6,7 @@
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "描述",
+            "tabname": "Description",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
@@ -35,34 +35,28 @@
                     "spacing": 8
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "XsF1re,ichitaso,level3tjg",
-                    "title": "Author"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Author:** `XsF1re, ichitaso, level3tjg`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "LF <yitat1006@outlook.com>",
-                    "title": "Maintainer"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Maintainer:** LF `<yitat1006@outlook.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "AD <ad-ios334@outlook.com>",
-                    "title": "Maintainer"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Maintainer:** AD `<ad-ios334@outlook.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "0.4.5-Next",
-                    "title": "Latest version"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Latest version:** `0.4.5-Next`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "15-16.6.1",
-                    "title": "Support OS scope"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Supported OS Range:** `iOS15~iOS16.6.1`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "2025 年 10 月 02 日",
-                    "title": "Last update date"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Late update:** `2025-10-02`"
                 },
                 {
                     "class": "DepictionSpacerView",

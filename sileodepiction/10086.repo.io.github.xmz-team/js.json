@@ -36,26 +36,23 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**Author:** XMZ Studio\n`<xmz-studio@users.noreply.github.com>`"
+                    "markdown": "**Author:** XMZ Studio `<xmz-studio@users.noreply.github.com>`"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**Maintainer:** XMZ Studio\n`<xmz-studio@users.noreply.github.com>`"
+                    "markdown": "**Maintainer:** XMZ Studio `<xmz-studio@users.noreply.github.com>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "1.0.1-1",
-                    "title": "Latest version"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Latest version:** `1.0.1-1`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "markdown": "unknown",
-                    "title": "Support OS scope"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Supported OS Range:** `unknown`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "2026-11-17",
-                    "title": "Last update date"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Last update:** `2026-11-17`"
                 },
                 {
                     "class": "DepictionSpacerView",

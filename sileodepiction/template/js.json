@@ -13,7 +13,8 @@
                     "markdown": "<Description>",
                     "useRawFormat": false
                 },
-/* Optional screenshot description
+/*
+ * optional screenshot description
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
@@ -22,6 +23,7 @@
                         {
                             "accessibilityText": "Screenshot",
                             "url": "https://xmz-studio.github.io/repo/sileodepiction/<package name>/<image name>.png"
+                            /* or use image of default */
                             /* "url": "https://xmz-studio.github.io/repo/sileodepiction/Default/<image name>.png" */
                         }
                     ]
@@ -49,29 +51,26 @@
                     "spacing": 8
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "<author name> <author email>",
-                    "title": "Author"
+                    "class": "DepictionMarkdownView",
+                    "text": "**Author:** <author name> `<author email>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "<Maintainer name> <maintainer email>",
-                    "title": "Maintainer"
+                    "class": "DepictionMarkdownView",
+                    "text": "**Maintainer:** <Maintainer name> `<maintainer email>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "<version>,
-                    "title": "Latest version"
+                    "class": "DepictionMarkdownView",
+                    "text": "**Latest version:** `<version>`"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "markdown": "unknown",
-                    "title": "Support OS scope"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Supported OS Range:** `<OS version>`"
+                    /* or */
+                    /* "markdown": "Supported OS Range:** `<OS version-OS version>`" */
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "text": "<Year>-<Moon>-<Day>",
-                    "title": "Last update"
+                    "class": "DepictionMarkdownView",
+                    "text": "**Last update:** `Year-Moon-Day`"
                 },
                 {
                     "class": "DepictionSpacerView",
