@@ -3356,91 +3356,91 @@ Name: iOS26e
 Package: io.github.xmz-team.minisudo
 Version: 0.0.1-release
 Architecture: iphoneos-arm64
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: libiosexec1, libcrypt2
 Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.1-release_iphoneos-arm64.deb
 Size: 12256
-MD5sum: f730d31b5726c8885cbfecb28d669fb3
-SHA1: b8e9465abda0d42b380c7cc191c21f36ef4d52c4
-SHA256: 02e7e7d79b997c27fe8a9467730ed2716f287d1c22cae7bec58b34eb95a191b0
+MD5sum: eba1fa02f4cb78df7421d182cf79b64d
+SHA1: 3d6627739f7c8936782d862acc9dfee443683a56
+SHA256: df36025ad77a6bdf0346cb94e76469c0d71a25c36a8d5b1f2b56d1724fbad45a
 Section: System
 Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: minisudo
 
 Package: io.github.xmz-team.minisudo
 Version: 0.0.1-release-1
 Architecture: iphoneos-arm64
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: libiosexec1, libcrypt2
 Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.1-release-1_iphoneos-arm64.deb
-Size: 12268
-MD5sum: 6b225b196f54dc297639f6f136975a28
-SHA1: a22dcf390c318037322d10144a191a0cb18be2b4
-SHA256: 9e3ff0a5a59c5690b4c1b8379620ae622d9e43b2977c536642a795a60e94a60e
+Size: 12276
+MD5sum: 95ee1837a3f5b1ac46c970b8151314fa
+SHA1: 8e96a5b32ea19928a1afb194480af49358869aaf
+SHA256: ef9c53de5c3c08c8f9d76fe912fc54024379d92d632932537909d584da8207bd
 Section: System
 Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: minisudo
 
 Package: io.github.xmz-team.minisudo
 Version: 0.0.2-release
 Architecture: iphoneos-arm64
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: libiosexec1, libcrypt2
 Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.2-release_iphoneos-arm64.deb
-Size: 12660
-MD5sum: 179b6c50f36a236a02c3c56ba3d98358
-SHA1: 8117f770395b303922192af2831e55ef2de6cc25
-SHA256: 7cfbfd4634856abe6b955b747caede7622b03d5039d805f66505a245cc8fd1a1
+Size: 12668
+MD5sum: ca7090e221c00fcb7a4658862b86dae2
+SHA1: dee7b2b63bf38f7145b450fd9e6170393b21eda0
+SHA256: 6493013a00d16a515eef05e09f6e3a7869c437ede9e19e4d97bac30abc360d47
 Section: System
 Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: minisudo
 
 Package: io.github.xmz-team.minisudo
 Version: 0.0.2-release-1
 Architecture: iphoneos-arm64
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: libiosexec1, libcrypt2
 Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.2-release-1_iphoneos-arm64.deb
-Size: 12664
-MD5sum: 78e4fe1b95fb86286e07fd4234601a26
-SHA1: 1550534d6ff8da7569008b2b86335343b9cbd0b1
-SHA256: adecf0965a403dce0395301a7d68778039edfb883fd8d8ef0816b8a58370d65b
+Size: 12676
+MD5sum: 681a0de08ed91ab6d1d48c29323dfbb5
+SHA1: aa83242486d0c410824132cad14e6e86bb70b958
+SHA256: 59406e0320b5d4d33ec3065cca4b97cf1474c2500157d21a5b5942a4b3ea5ca3
 Section: System
 Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: minisudo
 
 Package: io.github.xmz-team.minisudo
 Version: 0.0.2-release-2
 Architecture: iphoneos-arm64
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: libiosexec1, libcrypt2
 Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.2-release-2_iphoneos-arm64.deb
-Size: 12664
-MD5sum: 752185c40b44324b00a8dc3a7b644d19
-SHA1: b8efc2c5f3a9a25afa194b038e4ae15b65ce23f7
-SHA256: d396fad0e8cbcbef1c2c438ee533e162d6af396054cd6b3f285673b1d0be5b03
+Size: 12668
+MD5sum: c5ce25ad4a8a0ee1882a8e1eb4fa794e
+SHA1: 25d926d413f3b365031b3a39094b549a29e39c42
+SHA256: 1ca4d67c93277a5c46b46ddfd83693b3c542db578f8ae04e90af3053d72061e9
 Section: System
 Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: minisudo
 
 Package: io.github.xmz-team.minisudo
 Version: 0.0.3-release
 Architecture: iphoneos-arm64
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: libiosexec1, libcrypt2
 Filename: ./debs/iphoneos-arm64/io.github.xmz-team.minisudo/io.github.xmz-team.minisudo_0.0.3-release_iphoneos-arm64.deb
-Size: 12880
-MD5sum: 8564158a5f520e31f9e958fa2fbcf468
-SHA1: 0b80d680d9aa2f24835079f986244d340a43e646
-SHA256: 7c63f64bebcaf063a81891f82528fc81dc6901764ab1360637a907b258f23ee6
+Size: 12872
+MD5sum: 1d6cfd42bd8b4078e0ffe0b365b8526c
+SHA1: 522627af84c8d0f19518f877daa786a37d1887a1
+SHA256: 6cfc9bad80f47e94bbfd974837eaaf4fe598d4af8877a9fcef21d212dcc56e38
 Section: System
 Description: minisudo(msudo) minimal sudo replacement, note that it can coexist with sudo.
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: minisudo
 
 Package: io.github.xmz-team.open-ios
@@ -3450,13 +3450,13 @@ Maintainer: XNZ <xmz-team@outlook.com>
 Depends: libiosexec1
 Conflicts: com.conradkramer.open
 Filename: ./debs/iphoneos-arm64/io.github.xmz-team.open-ios/io.github.xmz-team.open-ios_1.0.0_iphoneos-arm64.deb
-Size: 8776
-MD5sum: 2aa706301c5965bb224549aac9f023cb
-SHA1: 42e75916b3c2210dc9fa531ff50e71ea4fd276e9
-SHA256: 64ce1ccf2ff2f1b457436ed6e7093cfb94976799c98f6776c33df17b749085b5
+Size: 8784
+MD5sum: c2032248e35d1b54ac21011063bcc8e0
+SHA1: 8cdb1e349495259e2e20f052c18d0810110b2513
+SHA256: 8f8e4fc971132967bbdbe41b592ab9e3738fe650db3c30a6ccccab915baf4eee
 Section: Tools
 Description: Simple substitutes of macOS open command
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: open-ios
 
 Package: io.github.xmz-team.open-ios
@@ -3466,30 +3466,30 @@ Maintainer: XNZ <xmz-team@outlook.com>
 Depends: libiosexec1
 Conflicts: com.conradkramer.open
 Filename: ./debs/history/iphoneos-arm64/io.github.xmz-team.open-ios/io.github.xmz-team.open-ios_1.0.0_iphoneos-arm64.deb
-Size: 8776
-MD5sum: 7a785637efb22b8e2dbe3fa92072c7c1
-SHA1: 34f1f97e1d69882015d62de21b674eef39282a6b
-SHA256: b1bfaa598449dc50bbbe00b78e86d8009a3379ef023ad6696e031ce973cee89b
+Size: 8788
+MD5sum: 10163e2b18c07f78b40959ecf3c1acc5
+SHA1: 2e1b9740f6859088f795fa53da13cb97e0bfaf9c
+SHA256: a3efb3de9b6598eecbe80ae188c311cb4872542e56efdffda071d8cd4d5f7c20
 Section: Tools
 Description: Simple substitutes of macOS open command
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: open-ios
 
 Package: io.github.xmz-team.zerocpu
 Version: 1.0.0-3+debug
 Architecture: iphoneos-arm64
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Installed-Size: 172
 Depends: mobilesubstrate
 Conflicts: fakecpuzero
 Filename: ./debs/iphoneos-arm64/io.github.xmz-team.zerocpu/io.github.xmz-team.zerocpu_1.0.0-3+debug_iphoneos-arm64.deb
-Size: 5172
-MD5sum: 59cbe93743f46caf367570951c4cea34
-SHA1: c42e2c345bd3b685eeeb685c5a2ded41f276060a
-SHA256: d5d7089a9e146c8910f828a80da3edf75e9c3a61e6d10aa5a4d4db47cd056c76
+Size: 5156
+MD5sum: feeb2f00511248ff7eac123d1b11174f
+SHA1: 3613e5f2f7836b7eac7e419765abcf717263c171
+SHA256: 77f91511a2e223a74832a27dc4198c39f364c557f8ba79f539d860c5c4794284
 Section: Tweaks
 Description: A Tweak that can turn all the obtained CPU usage rates into 0%.
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: CPU Usage Zero
 
 Package: iperformancetweak
@@ -3717,16 +3717,16 @@ Name: 百度词库
 Package: switch-sdk.io.github.xmz-team
 Version: 0.1.1
 Architecture: all
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: bash, dash, shell-cmds
 Filename: ./debs/all/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
-Size: 1928
-MD5sum: 51adc7df53a882b780f2f1826d0832fc
-SHA1: f1f6a4a0e352e1634d40a451496d3ded337f79cf
-SHA256: b4c4f0e9d39b8212878867f44e9c461b72ef6bfde2b5a96d5e3a938af5ee2695
+Size: 1940
+MD5sum: adefced73d8b4221f5a4d4a3ba99a871
+SHA1: db1fd270cdff7fb6ce583baa7b700c7775300567
+SHA256: af484d0864423e0817489aae042a482b94da792e10800a9fe62f56fe6713c410
 Section: Tools
 Description: Switch SDK, need Theos
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: switch-sdk
 
 Package: vnodebypassnext

@@ -7,14 +7,17 @@
 #   XMZ-Team
 #   XMZ-Team <xmz-team@outlook.com>
 #   XMZ <xmz-team@outlook.com>
+#   ...
 
-NEW='XMZ Studio <xmz-studio@github.com>'
+NEW='XMZ Studio <xmz-studio@users.noreply.github.com>'
 OLD_VALUES=(
     'XMZ'
     'XMZ-Team'
     'XMZ-Team <xmz-team@outlook.com>'
     'XMZ <xmz-team@outlook.com>'
     'XMZ Studio <xmz-team@github.com>'
+    'XMZ Studio <xmz-studio@github.com>'
+    'XMZ Studio <xmz-studio@users.noreply.github.com'
 )
 TARGET_DIR="${1:-.}"
 

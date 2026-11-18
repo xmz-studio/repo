@@ -2,7 +2,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: /var/jb/tmp/tmp.ny3zIGFBpE/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
+Filename: /var/jb/tmp/tmp.DrbF4jKl3z/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
 Size: 58524
 MD5sum: 06f758067dfdd4a72eab901b37bf7e6f
 SHA1: 14d03264015c19a229db6eb6645e7fd80108d3d4
@@ -16,16 +16,16 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.j
 Package: switch-sdk.io.github.xmz-team
 Version: 0.1.1
 Architecture: all
-Maintainer: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: bash, dash, shell-cmds
-Filename: /var/jb/tmp/tmp.ny3zIGFBpE/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
-Size: 1928
-MD5sum: 51adc7df53a882b780f2f1826d0832fc
-SHA1: f1f6a4a0e352e1634d40a451496d3ded337f79cf
-SHA256: b4c4f0e9d39b8212878867f44e9c461b72ef6bfde2b5a96d5e3a938af5ee2695
+Filename: /var/jb/tmp/tmp.DrbF4jKl3z/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
+Size: 1940
+MD5sum: adefced73d8b4221f5a4d4a3ba99a871
+SHA1: db1fd270cdff7fb6ce583baa7b700c7775300567
+SHA256: af484d0864423e0817489aae042a482b94da792e10800a9fe62f56fe6713c410
 Section: Tools
 Description: Switch SDK, need Theos
-Author: XMZ Studio <xmz-studio@github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Name: switch-sdk
 
 Package: 10086.repo.io.github.xmz-team

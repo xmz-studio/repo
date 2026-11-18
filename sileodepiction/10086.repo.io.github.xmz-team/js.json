@@ -36,12 +36,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "XMZ Studio <xmz-studio@github.com>",
+                    "text": "XMZ Studio <xmz-studio@users.noreply.github.com>",
                     "title": "Author"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "XMZ Studio <xmz-studio@github.com>",
+                    "text": "XMZ Studio <xmz-studio@users.noreply.github.com>",
                     "title": "Maintainer"
                 },
                 {
