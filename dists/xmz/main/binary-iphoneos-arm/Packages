@@ -3,7 +3,7 @@ Version: 2.0.1.124
 Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
-Filename: /var/jb/tmp/tmp.5X5zNzDaKb/a1/a1_2.0.1.124_iphoneos-arm.deb
+Filename: /var/jb/tmp/tmp.3TzbkXSXGC/a1/a1_2.0.1.124_iphoneos-arm.deb
 Size: 658572
 MD5sum: b32d9c4723c2cbb82e713199e20bb0f5
 SHA1: 31aadc226325790cd7c6db127316f76f80cf843d
@@ -25,11 +25,11 @@ Package: 10086.repo.io.github.xmz-team
 Name: Announcement
 Version: 1.0.1-1
 Architecture: all
-Maintainer: XMZ Studio <xmz-studio@github.com>
-Author: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Section: 10086
 Priority: required
 Depends: firmware (<= -1.0), firmware (= -1.0), firmware (< -0.9)
-Icon: https://xmz-team.github.io/ad/CydiaIcon.png
+Icon: https://xmz-studio.github.io/repo/CydiaIcon.png
 SileoDepiction: https://xmz-studio.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
 Description: 10086

@@ -3767,11 +3767,11 @@ Package: 10086.repo.io.github.xmz-team
 Name: Announcement
 Version: 1.0.1-1
 Architecture: all
-Maintainer: XMZ Studio <xmz-studio@github.com>
-Author: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Section: 10086
 Priority: required
 Depends: firmware (<= -1.0), firmware (= -1.0), firmware (< -0.9)
-Icon: https://xmz-team.github.io/ad/CydiaIcon.png
+Icon: https://xmz-studio.github.io/repo/CydiaIcon.png
 SileoDepiction: https://xmz-studio.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
 Description: 10086

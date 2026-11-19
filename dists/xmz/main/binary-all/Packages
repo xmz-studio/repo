@@ -2,7 +2,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: /var/jb/tmp/tmp.DrbF4jKl3z/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
+Filename: /var/jb/tmp/tmp.BvZNChuoRp/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
 Size: 58524
 MD5sum: 06f758067dfdd4a72eab901b37bf7e6f
 SHA1: 14d03264015c19a229db6eb6645e7fd80108d3d4
@@ -18,7 +18,7 @@ Version: 0.1.1
 Architecture: all
 Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
 Depends: bash, dash, shell-cmds
-Filename: /var/jb/tmp/tmp.DrbF4jKl3z/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
+Filename: /var/jb/tmp/tmp.BvZNChuoRp/switch-sdk.io.github.xmz-team/switch-sdk.io.github.xmz-team_0.1.1_all.deb
 Size: 1940
 MD5sum: adefced73d8b4221f5a4d4a3ba99a871
 SHA1: db1fd270cdff7fb6ce583baa7b700c7775300567
@@ -32,11 +32,11 @@ Package: 10086.repo.io.github.xmz-team
 Name: Announcement
 Version: 1.0.1-1
 Architecture: all
-Maintainer: XMZ Studio <xmz-studio@github.com>
-Author: XMZ Studio <xmz-studio@github.com>
+Maintainer: XMZ Studio <xmz-studio@users.noreply.github.com>
+Author: XMZ Studio <xmz-studio@users.noreply.github.com>
 Section: 10086
 Priority: required
 Depends: firmware (<= -1.0), firmware (= -1.0), firmware (< -0.9)
-Icon: https://xmz-team.github.io/ad/CydiaIcon.png
+Icon: https://xmz-studio.github.io/repo/CydiaIcon.png
 SileoDepiction: https://xmz-studio.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
 Description: 10086
